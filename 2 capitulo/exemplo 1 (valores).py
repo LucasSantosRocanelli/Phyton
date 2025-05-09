@@ -1,0 +1,1 @@
+#variaveis são aquelas que guardam valores
