@@ -1,7 +1,3 @@
-# Solicita dois números ao usuário
-# Realiza as operações
-# Tratamento para divisão por zero
-# Exibe os resultados
 
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
@@ -15,7 +11,7 @@ if num2 != 0:
 else:
     divisao = "Não é possível dividir por zero"
 
-print("\nResultados das operações:")
+print("Resultados das operações:")
 print(f"{num1} + {num2} = {soma}")
 print(f"{num1} - {num2} = {subtracao}")
 print(f"{num1} * {num2} = {multiplicacao}")

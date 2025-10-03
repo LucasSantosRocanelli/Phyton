@@ -1,6 +1,3 @@
-# Solicita os dois números inteiros ao usuário
-# Calcula a soma
-# Exibe o resultado
 
 num1 = int(input("Digite o primeiro número inteiro: "))
 num2 = int(input("Digite o segundo número inteiro: "))
