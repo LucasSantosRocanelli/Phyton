@@ -23,6 +23,8 @@ def ApresentaJogador(opcao):
             print(f"Jogador 10: Rafinha")
         case 11:
             print(f"Jogador 11: Paquetá")
+        case _:
+            print("Digite o número da camisa de 1 até 11:")
 
-def default(main):
-    print("digite o número da camisa de 1 até 11:")
+
+
