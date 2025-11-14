@@ -15,11 +15,9 @@ def calcular_dias_perdidos(cigarros_por_dia, anos_fumando):
    dias_por_ano = 365
 
 
-   # Cálculo do total de cigarros fumados
    total_cigarros = cigarros_por_dia * dias_por_ano * anos_fumando
 
 
-   # Conversão de minutos perdidos para dias (1440 minutos = 1 dia)
    dias_perdidos = (total_cigarros * minutos_perdidos_por_cigarro) / 1440
 
 
@@ -29,16 +27,14 @@ def calcular_dias_perdidos(cigarros_por_dia, anos_fumando):
 
 
 def main():
-   # Entrada de dados
+
    cigarros_por_dia = int(input("Quantos cigarros você fuma por dia? "))
    anos_fumando = int(input("Há quantos anos você fuma? "))
 
 
-   # Cálculo
    dias_perdidos = calcular_dias_perdidos(cigarros_por_dia, anos_fumando)
 
 
-   # Saída
    print(f"\nVocê já perdeu aproximadamente {dias_perdidos:.1f} dias de vida por fumar.")
 
 

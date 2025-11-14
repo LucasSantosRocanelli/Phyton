@@ -19,17 +19,15 @@ def calcular_aumento(salario_atual, percentual_aumento):
 
 
 def main():
-   # Solicita os dados ao usuário
+
    salario_atual = float(input("Digite o valor do salário atual: R$ "))
    percentual = float(input("Digite o percentual de aumento (%): "))
 
 
-   # Calcula o aumento
    aumento, novo_salario = calcular_aumento(salario_atual, percentual)
 
 
-   # Exibe os resultados
-   print("\nResultado do cálculo:")
+   print("Resultado do cálculo:")
    print(f"Valor do aumento: R$ {aumento:.2f}")
    print(f"Novo salário: R$ {novo_salario:.2f}")
 

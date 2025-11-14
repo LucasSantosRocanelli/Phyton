@@ -19,17 +19,15 @@ def calcular_desconto(preco, percentual_desconto):
 
 
 def main():
-   # Solicita o preço da mercadoria e o percentual de desconto
+
    preco = float(input("Digite o preço da mercadoria: R$ "))
    percentual_desconto = float(input("Digite o percentual de desconto (%): "))
 
 
-   # Calcula o desconto e o preço a pagar
    desconto, preco_final = calcular_desconto(preco, percentual_desconto)
 
 
-   # Exibe os resultados
-   print(f"\nValor do desconto: R$ {desconto:.2f}")
+   print(f"Valor do desconto: R$ {desconto:.2f}")
    print(f"Preço a pagar: R$ {preco_final:.2f}")
 
 

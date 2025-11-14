@@ -56,7 +56,7 @@ def main():
        horas_inteiras, minutos = converter_horas_para_horas_minutos(horas)
 
 
-       print(f"\nTempo estimado de viagem: {horas_inteiras} horas e {minutos} minutos")
+       print(f"Tempo estimado de viagem: {horas_inteiras} horas e {minutos} minutos")
 
 
    except ValueError:
